@@ -1,5 +1,5 @@
 ---
-name: Greg carmichael
+name: Gregory Carmichael
 title: Professor
 affiliation: University of Iowa
 image: img/speakers/Gregory_Carmichael.jpg
@@ -8,6 +8,8 @@ session: null
 priority: 2
 talk_title: null
 ---
+
+
 
 
 
