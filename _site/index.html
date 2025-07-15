@@ -77,7 +77,7 @@
           <div class="row">
             <div class="col s12 m10 offset-m1 l8 offset-l2 section-gray-body" style="text-align: justify;">
         <p>This conference will focus on the major environmental challenges currently faced globally, with particular emphasis on the mechanisms of air pollution and extreme weather, as well as strategies for addressing them. As global warming progresses, the frequency and intensity of extreme events continue to increase, posing serious threats to ecosystems and public health. The conference aims to address meteorology, environment, health, urban science, and their interdisciplinary fields, covering physics, chemistry, computer science, social sciences, and public health. It will focus on exploring interactions between disciplines to promote collaborative research across fields, hoping to generate novel insights and research methodologies. Experts and scholars from around the world will be invited to share their latest research findings on related issues and discuss response strategies and policy recommendations, thereby advancing the scientific community's understanding of these issues and the formulation of solutions. Additionally, the conference will provide a platform for participants to exchange ideas, promote international collaboration, and enhance society's awareness and ability to respond to extreme events. </p>
-        <p><a href="https://forms.cloud.microsoft/r/McrnsxHwW4"><strong>Abstract submission</strong></a>  <strong>deadline: 10th, September, 2025.</strong></p>
+        <p><a href="https://forms.cloud.microsoft/r/McrnsxHwW4"><strong>Abstract submission</strong></a>  <strong>deadline: 31 August, 2025.</strong></p>
           <p> </p>
             </div>
 
@@ -87,20 +87,138 @@
         </div>
       </div>
 
-      <!-- Speakers section -->
-      <div class="section scrollspy section-white-section" id="speakers">
-        <div class="container">
-          <h4 class="center-align section-white-header">Keynote speakers</h4>
+      
+<div class="section scrollspy section-white-section" id="speakers">
+  <div class="container">
+    <h4 class="center-align section-white-header">Speakers</h4>
 
-          <div class="row">
-            <div class="col s12 m12 l12 section-white-body">
-              <p class="center">The speaker lineup is still being finalized. Will be posted later.
-              </p>
-            </div>
+    <div class="row">
+      <div class="col s12 m12 l12 section-white-body">
+        <p class="center">We are excited to announce current lineup for the  ICAEH!</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+        <div class="speakers-container">
+          
+          
+          <div class="speaker-card">
+            <a href="#" data-target=/invited_speakers/1-speaker class="modal-trigger">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <div class="avatar-container">
+                    <img class="activator speaker-avatar" src="img/speakers/ZhuTong.jpg" alt="Zhu Tong">
+                  </div>
+                  <!-- 添加空白间距 -->
+                  <div class="spacer"></div>
+                  <span class="card-title" id="main-title">Zhu Tong</span>
+                </div>
+                <div class="card-content" id="secondary-title">
+                  <span class="card-title activator" id="secondary-title-text">Peking University</span>
+                </div>
+              </div>
+            </a>
           </div>
-
+          
+          <div class="speaker-card">
+            <a href="#" data-target=/invited_speakers/2-speaker class="modal-trigger">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <div class="avatar-container">
+                    <img class="activator speaker-avatar" src="img/speakers/Gregory_Carmichael.jpg" alt="Greg carmichael">
+                  </div>
+                  <!-- 添加空白间距 -->
+                  <div class="spacer"></div>
+                  <span class="card-title" id="main-title">Greg carmichael</span>
+                </div>
+                <div class="card-content" id="secondary-title">
+                  <span class="card-title activator" id="secondary-title-text">University of Iowa</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* 添加空白间距元素 */
+  .spacer {
+    height: 15px; /* 控制空白高度 */
+  }
+  
+  /* 其他样式保持不变 */
+  .speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .speaker-card {
+    flex: 0 0 240px;
+    max-width: 240px;
+    margin-bottom: 20px;
+  }
+  
+  .avatar-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #e0e0e0;
+    background: #f5f5f5;
+    margin-bottom: 30px; / 增加下边距 /
+
+  }
+  
+  .speaker-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .card.hoverable:hover .speaker-avatar {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    display: block;
+    padding: 0 10px;
+  }
+  
+  /* 响应式调整 */
+  @media (max-width: 1200px) {
+    .speaker-card {
+      flex: 0 0 calc(33.333% - 25px);
+      max-width: calc(33.333% - 25px);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .speaker-card {
+      flex: 0 0 calc(50% - 25px);
+      max-width: calc(50% - 25px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .speaker-card {
+      flex: 0 0 100%;
+      max-width: 280px;
+    }
+  }
+</style>
 
       <!-- Schedule section -->
 <div class="section scrollspy section-gray-section" id="schedule">
@@ -218,21 +336,19 @@ Climate-Chemistry Interactions and Future Projections
     
     <div id=/invited_speakers/1-speaker class="modal">
       <div class="modal-content">
-        <h4><a href="http://website.com">John Doe</a> <small style="color: gray"><small>Title, Affiliation</small></small></h4>
-        <h5>Talk Title</h5>
-        <p><strong>Abstract</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p><strong>Bio</strong>﻿: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4>
+  <a href="https://ocean.pku.edu.cn/info/1184/4461.htm" 
+     style="color: #0066cc; 
+            font-weight: bold;
+            text-decoration: underline;
+            text-underline-offset: 8px; / 控制下划线距离 /
+            padding: 2px 5px;">
+    Zhu Tong
+  </a>
+  <small style="color: gray">Professor, Peking University</small>
+</h4>
+        <h5></h5>
+        
 
       </div>
       <div class="modal-footer">
@@ -242,93 +358,19 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     
     <div id=/invited_speakers/2-speaker class="modal">
       <div class="modal-content">
-        <h4><a href="http://website.com">John Doe</a> <small style="color: gray"><small>Title, Affiliation</small></small></h4>
-        <h5>Talk Title</h5>
-        <p><strong>Abstract</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p><strong>Bio</strong>﻿: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>     
-    
-    <div id=/invited_speakers/3-speaker class="modal">
-      <div class="modal-content">
-        <h4><a href="http://website.com">John Doe</a> <small style="color: gray"><small>Title, Affiliation</small></small></h4>
-        <h5>Talk Title</h5>
-        <p><strong>Abstract</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p><strong>Bio</strong>﻿: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>     
-    
-    <div id=/invited_speakers/4-speaker class="modal">
-      <div class="modal-content">
-        <h4><a href="http://website.com">John Doe</a> <small style="color: gray"><small>Title, Affiliation</small></small></h4>
-        <h5>Talk Title</h5>
-        <p><strong>Abstract</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p><strong>Bio</strong>﻿: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>     
-    
-    <div id=/invited_speakers/5-speaker class="modal">
-      <div class="modal-content">
-        <h4><a href="http://website.com">John Doe</a> <small style="color: gray"><small>Title, Affiliation</small></small></h4>
-        <h5>Talk Title</h5>
-        <p><strong>Abstract</strong>: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p><strong>Bio</strong>﻿: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h4>
+  <a href="https://engineering.uiowa.edu/directory/gregory-carmichael" 
+     style="color: #0066cc; 
+            font-weight: bold;
+            text-decoration: underline;
+            text-underline-offset: 8px; / 控制下划线距离 /
+            padding: 2px 5px;">
+    Greg carmichael
+  </a>
+  <small style="color: gray">Professor, University of Iowa</small>
+</h4>
+        <h5></h5>
+        
 
       </div>
       <div class="modal-footer">

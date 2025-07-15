@@ -3,19 +3,16 @@
   {% include head.html %}
   <body>
     <header>
-      {% include nav.html %}
+      {% include nav_early.html %}
     </header>
     <main>
       {% include banner.html %}
       {% include infoline.html %}
-      {% include pictures.html %}            
       {% include about.html %}
-      {% include speakers.html %}
-      {% include schedule.html %} 
-      {% include papers_list.html %}   
+      {% include speakers_before.html %}
+      {% include schedule_early.html %} 
       {% include venue.html %}
       {% include organizers.html %}  
-      {% include sponsors.html %}          
     </main>
     <footer class="page-footer" style="background-color: {{site.color.primary-dark}}">
     </footer>
