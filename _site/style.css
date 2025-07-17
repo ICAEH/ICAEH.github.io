@@ -122,6 +122,15 @@
   white-space: nowrap;
 }
 
+@media only screen and (max-width: 600px) {
+  .card-title {
+    white-space: normal;
+    font-size: 1.15em;
+    word-break: break-word;
+    line-height: 1.15;
+  }
+}
+
 #footer{
   margin-top:0px;
   padding-top:0px;
