@@ -65,6 +65,23 @@
   line-height: normal;
 }
 
+#third-title {
+  padding: 10px;
+  background-color: #19305c; 
+  word-break: break-word;
+}
+
+#third-title-text {
+  color: #fff;               /* 白色字体 */
+  font-size: 12px;           /* 稍大一点更醒目 */
+  line-height: normal;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+  font-weight: bold;         /* 加粗 */
+  letter-spacing: 0.5px;     /* 稍微拉开字距，提升可读性 */
+}
+
 .banner-heading{
   text-align:center;
   font-weight:bold;
