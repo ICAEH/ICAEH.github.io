@@ -67,7 +67,7 @@
 
 #third-title {
   padding: 10px;
-  background-color: #19305c; 
+  background-color: #19305c;
   word-break: break-word;
 }
 
@@ -81,6 +81,7 @@
   font-weight: bold;         /* 加粗 */
   letter-spacing: 0.5px;     /* 稍微拉开字距，提升可读性 */
 }
+
 
 .banner-heading{
   text-align:center;
