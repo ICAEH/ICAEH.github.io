@@ -8,9 +8,36 @@
               <p class="center">For any questions about the conference or opportunities, please contact Prof. Gao Meng (<a href="mailto:{{site.organizer-email}}">{{site.organizer-email}})</a>.
               </p>
             <div class="row center-images" style="background-color: white;">
-<div >
-        <img class="responsive-img" src="img/sponsors1.png" alt="NSFC">
+<div class="sponsors-container">
+    <img class="responsive-img" src="img/sponsors1.png" alt="NSFC">
+    <img class="responsive-img" src="img/sponsors2.png" alt="NSFC">
 </div>
+<style>
+.sponsors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px; /* 可选：图片间距 */
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    /* 你也可以加上固定宽度如 width: 200px; 按需设置 */
+}
+
+/* 手机端：max-width 600px */
+@media (max-width: 600px) {
+    .sponsors-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .responsive-img {
+        width: 80%; /* 或 100%，根据需要 */
+    }
+}
+</style>
+
              </div>
             </div>
 

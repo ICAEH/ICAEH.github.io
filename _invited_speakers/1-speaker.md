@@ -6,7 +6,7 @@ affiliation: Peking University
 image: img/speakers/ZhuTong.jpg
 link: 'https://ocean.pku.edu.cn/info/1184/4461.htm'
 session: null
-priority: 1
+priority: Zhu
 talk_title: null
 ---
 Click name to get more information.

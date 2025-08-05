@@ -6,7 +6,7 @@ affiliation: Yonsei University
 image: img/speakers/Kim.webp
 link: 'https://yonsei.elsevierpure.com/en/persons/jhoon-kim'
 session: null
-priority: 4
+priority: Kim
 talk_title: null
 ---
 Click name to get more information.
