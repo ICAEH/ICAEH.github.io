@@ -2,7 +2,7 @@
 name: Gregory R. Carmichael
 title: Professor
 title2: Chair of WMO GAW SSC
-affiliation: University of Iowa
+affiliation: The University of Iowa
 image: img/speakers/Gregory_Carmichael.jpg
 link: 'https://engineering.uiowa.edu/directory/gregory-carmichael'
 session: null
