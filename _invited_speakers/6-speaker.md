@@ -2,7 +2,7 @@
 name: Yongjiu Dai
 title: Professor
 title2: Academician of the Chinese Academy of Sciences
-affiliation: SUN YAT-SEN UNIVERSITY
+affiliation: Sun Yat-sen University
 image: img/speakers/daiyongjiu.jpg
 link: 'https://atmos.sysu.edu.cn/teacher/343'
 session: null
